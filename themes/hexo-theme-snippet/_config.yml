@@ -17,8 +17,8 @@ menu:
 - page: 大数据
   url: /categories/bigdata/
   icon:
-- page: 分布式
-  url: /categories/分布式/
+- page: 分布式系统
+  url: /categories/distributed-system/
   icon:
 - page: 操作系统
   url: /categories/os/
@@ -65,7 +65,7 @@ jsonContent:
 ## 网站公告设置
 notification: |-
             <p>
-                菜鸟的成神之路
+               <a href="https://www.coolkaka.cn/2019/08/12/Home/">菜鸟的成神之路</a>
             </p>
 
 ## 社交设置
