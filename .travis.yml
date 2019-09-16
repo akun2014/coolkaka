@@ -4,14 +4,14 @@ node_js: stable
 cache:
     apt: true
     directories:
-        - node_modules # 緩存不經常更改的內容
+        - node_modules
 
 notifications:
   # 钉钉机器人消息推送部署结果
   webhooks:
     urls:
-      - https://oapi.dingtalk.com/robot/send?access_token=${NOTIFY_TOKEN} # NOTIFY_TOKEN是在Travis中配置的
-    on_success: change
+      - https://oapi.dingtalk.com/robot/send?access_token=${NOTIFY_TOKEN} # NOTIFY_TOKEN在Travis中配置的
+    on_success: always
     on_failure: always
 
 before_install:
@@ -22,20 +22,20 @@ install:
 
 before_script:
   - echo 正在清空缓存静态文件...
-  - hexo clean                      # 清除缓存静态文件
+  - hexo clean                      
   - echo 正在生成静态文件...
-  - hexo g                          # 生成静态文件
+  - hexo g                          
   - cd ./public
   - ls -l
 
 script:
   - echo 开始部署...
   - git init
-  - git config --global user.name "${GH_username}"                          # 修改name
-  - git config --global user.email "${GH_useremail}"                        # 修改email
+  - git config --global user.name "${GH_username}" 
+  - git config --global user.email "${GH_useremail}" 
   - git add ./
   - git commit -m "update"
-  - git push --force --quiet "https://${GitHubKEY}@${GH_REF}" master:master  # GitHubKEY是在Travis中配置的
+  - git push --force --quiet "https://${GitHubKEY}@${GH_REF}" master:master  # GitHubKEY在Travis中配置的
 
 after_script:
   - echo 部署完成！
