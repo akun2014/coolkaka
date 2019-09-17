@@ -1,10 +1,6 @@
 language: node_js
 node_js: stable
-
-cache:
-    apt: true
-    directories:
-        - node_modules
+cache: npm
 
 notifications:
   # 钉钉机器人消息推送部署结果
@@ -40,11 +36,17 @@ script:
 after_script:
   - echo 部署完成！
 
+after_success:
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker build -t akundocker/coolkaka:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID .
+  - docker push akundocker/coolkaka:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID
+
 branches:
   only:
     - master
 env:
   global:
-    - GH_REF: github.com/akun2014/akun2014.github.io.git                   # 设置 github 项目仓库地址
-    - GH_username: akun2014                                               # 设置 github 用户名           
-    - GH_useremail: e-gk@qq.com                                            # 设置 github 绑定邮箱地址
+    - GH_REF="github.com/akun2014/akun2014.github.io.git"                   # 设置 github 项目仓库地址
+    - GH_username="akun2014"                                               # 设置 github 用户名           
+    - GH_useremail="e-gk@qq.com"                                            # 设置 github 绑定邮箱地址
+    - DOCKER_USERNAME="akundocker"
