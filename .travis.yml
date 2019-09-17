@@ -2,6 +2,9 @@ language: node_js
 node_js: stable
 cache: npm
 
+services:
+  - docker
+
 notifications:
   # 钉钉机器人消息推送部署结果
   webhooks:
@@ -26,6 +29,7 @@ before_script:
 
 script:
   - echo 开始部署...
+  - pwd
   - git init
   - git config --global user.name "${GH_username}" 
   - git config --global user.email "${GH_useremail}" 
