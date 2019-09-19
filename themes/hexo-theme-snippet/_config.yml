@@ -166,58 +166,37 @@ reward:
 
 ## Valine评论
 valine:
-   enable: true
+   enable: false
    appId: xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz
    appKey: erIpQac4azoCmgfBB7Dl9maa
    placeholder: 说点什么吧
    notify: false
    verify: true
    avatar: mm
-   meta: nick,mail
+   meta: nick,mail,link
    pageSize: 10
 
-### 畅言评论(需要ICP备案)
+## 不使用的评论系统
 changyan:
   enable: false
-  appid:
-  conf:
-
-### 来必力
 livere:
   enable: false
-  livere_uid: MTAyMC8zMzA1MS85NjEz
-
 ## Gitalk评论
 gitalk:
-   enable: false
-   clientID:
-   clientSecret:
-   repo:
-   owner:
-   admin:
-   perPage:
-   distractionFreeMode: true
-
-### Disqus评论
+   enable: true
+   clientID: a4caee55785129655f40
+   clientSecret: 960c3d3af8f5ffe86ce44231a5450fc4167c65e9
+   repo: bloggittalk
+   owner: 'akun2014'
+   admin: ['akun2014']
+   perPage: 10
+   distractionFreeMode: false
 disqus:
   enable: false
-  shortname: snippet
-  count: false
-
-### gitment评论(长期不更新，不建议使用)
 gitment:
   enable: false
-  owner:
-  repo:
-  client_id:
-  client_secret:
-  perPage: 10
-
-### 友言评论(服务不稳定)
 uyan:
   enable: false
-  uyan_id: 1966422
-
 
 ## 网站访客统计
 visit_counter:

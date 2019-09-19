@@ -2,6 +2,7 @@
 title: 更新日志
 date: 2019-09-19
 tags: [coolkaka]
+comments: false
 ---
 
 # Version 0.1.0 (2019-09-06)
