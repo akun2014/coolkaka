@@ -176,7 +176,6 @@ valine:
    meta: nick,mail,link
    pageSize: 10
 
-## 不使用的评论系统
 changyan:
   enable: false
 livere:
@@ -186,11 +185,11 @@ gitalk:
    enable: true
    clientID: a4caee55785129655f40
    clientSecret: 960c3d3af8f5ffe86ce44231a5450fc4167c65e9
-   repo: bloggittalk
+   repo: 'akun2014.github.io'
    owner: 'akun2014'
    admin: ['akun2014']
    perPage: 10
-   distractionFreeMode: false
+   distractionFreeMode: true
 disqus:
   enable: false
 gitment:
