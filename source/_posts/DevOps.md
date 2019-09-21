@@ -2,7 +2,7 @@
 title: DevOps
 date: 2019-08-12 17:13:12
 tags: devops
-categories: 工程管理
+categories: devops
 ---
 # 持续交付
 从需求到产品交付的整个生命周期
