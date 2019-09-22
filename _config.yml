@@ -15,7 +15,11 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.coolkaka.cn/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
 permalink_defaults:
 
 # Directory

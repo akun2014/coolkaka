@@ -1,8 +1,10 @@
 ---
 title: jvm类加载机制
-date: 2019-08-12 17:13:12
-tags: [jvm]
+tags:
+  - jvm
 categories: jvm
+abbrlink: badca4d8
+date: 2019-08-12 17:13:12
 ---
 ![](https://myblog-coolkaka.oss-cn-shanghai.aliyuncs.com/network/jvm%E7%B1%BB%E5%8A%A0%E8%BD%BD.png)
 

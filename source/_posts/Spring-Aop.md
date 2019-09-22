@@ -1,7 +1,10 @@
 ---
 title: Spring-Aop
+tags:
+  - spring
+  - aop
+abbrlink: 39dd5a04
 date: 2019-08-12 17:13:12
-tags: [spring,aop]
 ---
 # 几个重要类和接口
 

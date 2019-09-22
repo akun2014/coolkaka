@@ -1,7 +1,8 @@
 ---
 title: 计算机网络常用协议
-date: 2019-08-12 17:13:12
 categories: 计算机网络
+abbrlink: dfb482db
+date: 2019-08-12 17:13:12
 ---
 ![](https://myblog-coolkaka.oss-cn-shanghai.aliyuncs.com/network/TCPIP%E5%8D%8F%E8%AE%AE%E6%97%8F.png)
 

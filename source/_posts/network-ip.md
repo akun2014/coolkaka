@@ -1,8 +1,9 @@
 ---
 title: 网络协议---IP协议
-date: 2019-09-02 15:07:05
 tags: protocol
 categories: 计算机网络
+abbrlink: f5b14abf
+date: 2019-09-02 15:07:05
 ---
 
 # IP协议

@@ -1,5 +1,6 @@
 ---
 title: mybatis整体架构
+abbrlink: 6c17d880
 date: 2019-08-12 17:13:12
 tags:
 ---

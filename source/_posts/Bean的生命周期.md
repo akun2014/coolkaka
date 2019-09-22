@@ -1,5 +1,6 @@
 ---
 title: Bean的生命周期
+abbrlink: 48c92662
 date: 2019-08-12 17:13:12
 tags:
 ---

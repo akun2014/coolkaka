@@ -1,8 +1,12 @@
 ---
 title: JavaCore-HashMap源码解析
+tags:
+  - collection
+categories:
+  - java
+  - java-core
+abbrlink: 1395c3e0
 date: 2019-08-25 18:40:30
-tags: [collection]
-categories: [java,java-core]
 ---
 
 # HashMap

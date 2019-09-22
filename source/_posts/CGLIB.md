@@ -1,5 +1,6 @@
 ---
 title: CGLIB
+abbrlink: 1f5b1554
 date: 2019-08-12 17:13:12
 tags:
 categories:

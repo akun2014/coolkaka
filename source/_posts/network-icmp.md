@@ -1,8 +1,9 @@
 ---
 title: 网络协议-ICMP协议
-date: 2019-08-25 18:16:09
 tags: protocol
 categories: 计算机网络
+abbrlink: 3d56ba79
+date: 2019-08-25 18:16:09
 ---
 
 # ICMP协议

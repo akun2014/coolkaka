@@ -1,8 +1,11 @@
 ---
 title: JVM
-date: 2019-08-12 17:13:12
-tags: [java,jvm]
+tags:
+  - java
+  - jvm
 categories: JVM
+abbrlink: 66c016fb
+date: 2019-08-12 17:13:12
 ---
 * 内存结构
   

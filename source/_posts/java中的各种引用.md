@@ -1,7 +1,8 @@
 ---
 title: java中的各种引用
-date: 2019-08-15 14:21:10
 tags: java
+abbrlink: 5a985f7b
+date: 2019-08-15 14:21:10
 ---
 # java中的各种引用
 

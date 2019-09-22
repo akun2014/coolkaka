@@ -1,8 +1,11 @@
 ---
 title: 网络协议-TLS协议
-date: 2019-08-21 18:16:09
-tags: [protocol,https]
+tags:
+  - protocol
+  - https
 categories: 计算机网络
+abbrlink: 90fccd13
+date: 2019-08-21 18:16:09
 ---
 # DH 握手协商过程
 

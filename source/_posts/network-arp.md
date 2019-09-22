@@ -1,8 +1,9 @@
 ---
 title: 网络协议---ARP协议
-date: 2019-08-12 17:13:12
 tags: protocol
 categories: 计算机网络
+abbrlink: 7f765bc8
+date: 2019-08-12 17:13:12
 ---
 # ARP地址解析协议
 

@@ -1,8 +1,9 @@
 ---
 title: DevOps
-date: 2019-08-12 17:13:12
 tags: devops
 categories: devops
+abbrlink: a7787d29
+date: 2019-08-12 17:13:12
 ---
 # 持续交付
 从需求到产品交付的整个生命周期

@@ -1,7 +1,8 @@
 ---
 title: nginx配置详解
-date: 2019-09-10
 categories: distributed-system
+abbrlink: 122277c
+date: 2019-09-10 00:00:00
 ---
 # NGINX
 
@@ -428,6 +429,8 @@ server {
         server_name .example.com;
     }
 ```
+
+*.example.org*这种形式的特殊通配符，它既可以匹配确切的*example.com*，又可以匹配一般的通配符名称`*.example.org`
 
 配置的语法规则是`server_name name ...` server_name后面可以配置多个域名，第一个会被设置为主域名。同时name支持使用通配符 `*` 以及正则表达式。
 

@@ -1,5 +1,6 @@
 ---
 title: network-nat
+abbrlink: bb586126
 date: 2019-08-29 17:16:12
 tags:
 categories:

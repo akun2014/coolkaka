@@ -1,8 +1,9 @@
 ---
 title: Linux
-date: 2019-08-12 17:13:12
 tags: Linux
 categories: os
+abbrlink: 53d0684b
+date: 2019-08-12 17:13:12
 ---
 # Linux
 
