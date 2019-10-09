@@ -8,7 +8,7 @@ date: 2019-08-12 17:13:12
 
 # 网站地图
 
-{% img http://pxf36to17.bkt.clouddn.com/image/coolkaka/coolkaka-v0.0.1.png vi-vim-cheat-sheet %}
+{% img http://img.coolkaka.cn/image/coolkaka/coolkaka-v0.0.1.png vi-vim-cheat-sheet %}
 
 ## 开发工具
 
