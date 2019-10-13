@@ -41,7 +41,7 @@ after_script:
 
 after_success:
   - cd ..
-  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_TOKEN"
   - docker build -t akundocker/coolkaka:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID .
   - docker push akundocker/coolkaka:$TRAVIS_BRANCH-$TRAVIS_BUILD_ID
 
