@@ -1,6 +1,6 @@
 FROM nginx
 
-MAINTAINER coolkaka "e-gk@qq.com"
+LABEL maintainer="e-gk@qq.com"
 
 RUN apt-get update
 
