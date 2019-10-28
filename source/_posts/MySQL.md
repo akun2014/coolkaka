@@ -1,8 +1,10 @@
 ---
 title: MySQL数据库知识点
-abbrlink: c24675b4
+abbrlink: 1d5d1d67
+tags:
+  - 数据库
+  - MySQL
 date: 2019-08-12 17:13:12
-tags:['数据库','MySQL']
 ---
 
 > MySQL基础知识点罗列，作为一个字典查看
@@ -25,7 +27,7 @@ tags:['数据库','MySQL']
    DOUBLE 8Bytes  
    DECIMAL   
    用法DECIMAL(M,D) M取值：[1-65] D取值：[0-30] 且M > D
-1. 字符串类型  
+2. 字符串类型  
   TEXT 适合存文本、BLOB适合存二进制数据  
 TINYTEXT,TINYBLOB 2^8-1 Bytes  
 TEXT, BLOB 2^16-1Bytes  
